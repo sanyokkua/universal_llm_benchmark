@@ -286,7 +286,7 @@ CREATE TABLE judge_schema_version (
 
 | Layer                 | Technology                                                                        |
 |-----------------------|-----------------------------------------------------------------------------------|
-| **Backend Language**  | Java 21 (LTS)                                                                     |
+| **Backend Language**  | Java 25 (LTS)                                                                     |
 | **Backend Framework** | Spring Boot 3.x, Spring Web, Spring WebSocket (STOMP), Spring Data JPA, Spring AI |
 | **Frontend**          | React 18+, TypeScript, Vite, Tailwind CSS, Redux Toolkit, RTK Query               |
 | **Database**          | PostgreSQL 15+                                                                    |
