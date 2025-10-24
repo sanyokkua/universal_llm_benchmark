@@ -17,7 +17,7 @@ WORKDIR /app
 
 # Copy the built jar (expected to be built by host or CI)
 # You may want to adjust the jar name pattern if version changes.
-COPY target/benchmark-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY target/app.jar /app/app.jar
 
 # Ensure the jar is readable by the non-root user (read-only is fine)
 RUN chown spring:spring /app/app.jar && chmod 440 /app/app.jar

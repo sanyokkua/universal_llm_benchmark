@@ -1,4 +1,4 @@
-package com.universal.llm.benchmark.db.models;
+package com.universal.llm.benchmark.api.types;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,11 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class AppConfig {
-    private long id;
-    private String name;
-    private String baseUrl;
+public class StatusCode {
+    private int code;
+    private String message;
 }
